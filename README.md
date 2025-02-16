@@ -20,10 +20,14 @@ Os nomes inseridos serão exibidos em uma lista visível na página, e ao finali
 
 - **Sorteio aleatório:** Ao clicar no botão "Sortear Amigo", um nome da lista será selecionado aleatoriamente e exibido na página.
 
+- > **Reniciar jogo:** Tomei a liberdade de adicionar um botão que permite reiniciar o sorteio isso permitirá que os usuários facilmente comecem um novo sorteio sem precisar recarregar a página.
+
 ## Acesso ao projeto
-Para acessar ao projeto você pode utilizar o seguinte link
+Para acessar ao projeto e visualizar o resultado final você pode utilizar o link
+**[https://davidwilliamx.github.io/desafio-amigo-secreto/](https://davidwilliamx.github.io/desafio-amigo-secreto/)**
 
 ## Técnicas e tecnologias utilizadas
 `HTML`
 `CSS`
 `JavaScript`
+`Git`
