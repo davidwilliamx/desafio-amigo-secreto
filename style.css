@@ -160,3 +160,39 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.result-list {
+    margin-top: 20px;
+    text-align: center; /* Centraliza o texto do resultado */
+}
+
+.result-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333; /* Cor do título do resultado */
+    margin-bottom: 10px;
+}
+
+.result-name {
+    font-size: 1.5em;
+    font-weight: bolder; /* Deixa o nome sorteado mais destacado */
+    color: #007bff; /* Cor destaque para o nome sorteado (azul, exemplo) */
+    padding: 10px 20px;
+    border: 2px solid #007bff; /* Borda destacada */
+    border-radius: 5px;
+    display: inline-block; /* Para que a borda se ajuste ao conteúdo */
+    background-color: #f0f8ff; /* Cor de fundo suave */
+}
+
+.button-reset {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 40px;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.button-reset img {
+    margin-right: 40px;
+}
