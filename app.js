@@ -83,8 +83,12 @@ function displayResult(amigoSorteado) {
 
     // Cria um <li> para o nome sorteado
     const resultName = document.createElement('li');
+
+    // Capitalização da primeira letra do nome:
+    const capitalizedAmigoSorteado = amigoSorteado.charAt(0).toUpperCase() + amigoSorteado.slice(1);
+
     // Define o nome sorteado
-    resultName.textContent = amigoSorteado;
+    resultName.textContent = capitalizedAmigoSorteado;
     // Adiciona uma classe para estilização
     resultName.classList.add('result-name');
 
